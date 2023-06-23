@@ -1,0 +1,39 @@
+.top-toppings-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 1rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    span {
+      display: block;
+    }
+  }
+
+  .list-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+
+    .order-count {
+      justify-self: end;
+      align-self: end;
+    }
+  }
+}
